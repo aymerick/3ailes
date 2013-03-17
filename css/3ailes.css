@@ -1,0 +1,106 @@
+body {
+  position: relative;
+  padding-top: 40px;
+}
+
+body > .navbar {
+  font-size: 14px;
+}
+
+header {
+  background-image: url("../img/satinweave.png");
+  border-bottom: 1px solid #e5e5e5;
+}
+
+header .header-text {
+  padding: 35px 0px;
+}
+
+header .header-text h1 {
+  font-size: 60px;
+}
+
+header .header-text .subtitle {
+  margin: 40px 0px;
+  padding-right: 20px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+header .header-text .desc {
+  color: #666;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-style: italic;
+}
+
+header .header-img {
+  padding: 10px 0px;
+}
+
+.objectives {
+  padding: 40px 0px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.objectives .title {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  border-top: 1px solid #e5e5e5;
+  background-image: url("../img/satinweave.png");
+}
+
+footer p {
+  margin-bottom: 0;
+  color: #777;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+footer .social {
+  margin-bottom: 30px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+
+  header .header-text h1 {
+    font-size: 40px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    padding-top: 0;
+  }
+
+  header .header-text h1 {
+    font-size: 40px;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  body {
+    padding-top: 0;
+  }
+
+  header .header-text h1 {
+    font-size: 40px;
+  }
+}
