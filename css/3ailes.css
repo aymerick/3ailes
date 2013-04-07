@@ -46,7 +46,7 @@ header .header-text .desc {
 }
 
 header .header-text {
-  padding: 35px 0px;
+  padding: 0px 0px;
 }
 
 header .header-text h1 {
@@ -55,7 +55,7 @@ header .header-text h1 {
 }
 
 header .header-text .subtitle {
-  margin: 40px 0px;
+  margin: 40px 0px 10px 0px;
   padding-right: 20px;
   font-size: 24px;
   line-height: 32px;
@@ -72,6 +72,14 @@ header .header-img {
 
 
 /* Home */
+
+#home header .header-text {
+  padding: 35px 0px;
+}
+
+#home header .header-text .subtitle {
+  margin-bottom: 40px;
+}
 
 #home .objectives {
   font-size: 16px;
@@ -91,14 +99,6 @@ header .header-img {
 
 /* Contact */
 
-#contact header .header-text {
-  padding: 0px 0px;
-}
-
-#contact header .header-text .subtitle {
-  margin-bottom: 10px;
-}
-
 #contact footer {
   display: none;
 }
@@ -116,6 +116,35 @@ header .header-img {
 #contact .contact-link {
   position: absolute;
   left: 45px;
+}
+
+
+/* Actualites */
+
+#actualites-post footer {
+  display: none;
+}
+
+#actualites .date,
+#actualites-post .date {
+  color: #999;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* Images are centered */
+#actualites .post-excerpt img,
+#actualites-post .post-content img {
+  display: block;
+  margin: 20px auto;
+}
+
+/* The first image of the first paragragphe is right-floating */
+#actualites .post-excerpt p:nth-of-type(1) img:nth-of-type(1),
+#actualites-post .post-content p:nth-of-type(1) img:nth-of-type(1) {
+  display: inline-block;
+  float: left;
+  margin: 0px 20px 10px 0px;
 }
 
 

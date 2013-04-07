@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="container" id="post">
+  <div class="row">
+    <div class="span12 post-content">
+      <h2>{{ page.title }}</h2>
+      <div class="date">{{ page.date | date: "%d/%m/%Y" }}</div>
+      {{ content }}
+    </div>
+  </div>
+</div>
