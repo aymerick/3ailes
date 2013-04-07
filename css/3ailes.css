@@ -83,33 +83,33 @@ header .header-text .desc {
   font-style: italic;
 }
 
-
-/* Home */
-
-#home header .header-text {
+header .header-text {
   padding: 35px 0px;
 }
 
-#home header .header-text h1 {
+header .header-text h1 {
   font-size: 60px;
   line-height: 60px;
 }
 
-#home header .header-text .subtitle {
+header .header-text .subtitle {
   margin: 40px 0px;
   padding-right: 20px;
   font-size: 24px;
   line-height: 32px;
 }
 
-#home header .header-text .desc {
+header .header-text .desc {
   font-size: 16px;
   line-height: 32px;
 }
 
-#home header .header-img {
+header .header-img {
   padding: 10px 0px;
 }
+
+
+/* Home */
 
 #home .objectives {
   padding: 40px 0px;
