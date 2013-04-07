@@ -109,6 +109,15 @@ header .header-img {
   line-height: 50px;
 }
 
+#contact .contact-line {
+  position: relative;
+}
+
+#contact .contact-link {
+  position: absolute;
+  left: 45px;
+}
+
 
 /*
  * RESPONSIVE STUFF
