@@ -4,7 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site web de l'association 3ailes">
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }} ">
+    {% endif %}
     <meta name="author" content="Aymerick JEHANNE">
 
     <title>Association 3ailes - {{ page.title }}</title>
@@ -21,6 +23,10 @@
     <!--[if lt IE 9]>
       <script src="/vendor/html5shiv.js"></script>
     <![endif]-->
+
+    <meta property="fb:app_id" content="537913342926908" />
+    <meta property="og:type"   content="{{ page.og-type }}" />
+    <meta property="og:locale" content="fr_FR" />
   </head>
 
   <body id="{{ page.body-id }}">
