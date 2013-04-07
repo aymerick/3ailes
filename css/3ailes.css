@@ -91,6 +91,14 @@ header .header-img {
 
 /* Contact */
 
+#contact header .header-text {
+  padding: 0px 0px;
+}
+
+#contact header .header-text .subtitle {
+  margin-bottom: 10px;
+}
+
 #contact footer {
   display: none;
 }
