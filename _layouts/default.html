@@ -23,7 +23,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body id="{{ page.id }}">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -35,22 +35,22 @@
           <a class="brand" href="./index.html">3ailes</a>
           <div class="nav-collapse collapse navbar-responsive-collapse pull-right">
             <ul class="nav">
-              <li class="active">
+              <li class="{% if page.id == 'home' %}active{% endif %}">
                 <a href="./index.html">Accueil</a>
               </li>
               <!--
-              <li class="">
+              <li class="{% if page.id == 'news' %}active{% endif %}">
                 <a href="#">Actualités</a>
               </li>
-              <li class="">
+              <li class="{% if page.id == 'gouters' %}active{% endif %}">
                 <a href="#">Goûters</a>
               </li>
-              <li class="">
+              <li class="{% if page.id == 'adhesion' %}active{% endif %}">
                 <a href="#">Adhérer</a>
               </li>
               -->
-              <li class="">
-                <a href="mailto:bureau@3ailes.org">Contact</a>
+              <li class="{% if page.id == 'contact' %}active{% endif %}">
+                <a href="./contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -58,7 +58,9 @@
       </div>
     </div>
 
-    {{ content }}
+    <div id="main-content">
+      {{ content }}
+    </div>
 
     <footer>
       <div class="container">

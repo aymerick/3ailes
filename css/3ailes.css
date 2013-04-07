@@ -1,3 +1,5 @@
+/* Global */
+
 body {
   position: relative;
   padding-top: 40px;
@@ -7,48 +9,8 @@ body > .navbar {
   font-size: 14px;
 }
 
-header {
-  background-image: url("../img/satinweave.png");
-  border-bottom: 1px solid #e5e5e5;
-}
-
-header .header-text {
-  padding: 35px 0px;
-}
-
-header .header-text h1 {
-  font-size: 60px;
-  line-height: 60px;
-}
-
-header .header-text .subtitle {
-  margin: 40px 0px;
-  padding-right: 20px;
-  font-size: 24px;
-  line-height: 32px;
-}
-
-header .header-text .desc {
-  color: #666;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px;
-  line-height: 32px;
-  font-style: italic;
-}
-
-header .header-img {
-  padding: 10px 0px;
-}
-
-.objectives {
-  padding: 40px 0px;
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.objectives .title {
-  margin-bottom: 20px;
-  font-size: 40px;
+#main-content {
+  min-height: 500px;
 }
 
 footer {
@@ -104,4 +66,71 @@ footer .social {
   header .header-text h1 {
     font-size: 40px;
   }
+}
+
+
+/* Generic header */
+
+header {
+  background-image: url("../img/satinweave.png");
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 15px;
+}
+
+header .header-text .desc {
+  color: #666;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+
+/* Home */
+
+#home header .header-text {
+  padding: 35px 0px;
+}
+
+#home header .header-text h1 {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+#home header .header-text .subtitle {
+  margin: 40px 0px;
+  padding-right: 20px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+#home header .header-text .desc {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+#home header .header-img {
+  padding: 10px 0px;
+}
+
+#home .objectives {
+  padding: 40px 0px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#home .objectives .title {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+
+/* Contact */
+
+#contact footer {
+  display: none;
+}
+
+#contact .content {
+  padding: 40px 0px;
+  font-size: 30px;
+  line-height: 50px;
 }
