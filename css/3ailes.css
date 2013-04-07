@@ -28,46 +28,8 @@ footer p {
 }
 
 footer .social {
-  margin-bottom: 30px;
+
 }
-
-/* Large desktop */
-@media (min-width: 1200px) {
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  body {
-    padding-top: 0;
-  }
-
-  header .header-text h1 {
-    font-size: 40px;
-  }
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-  body {
-    padding-top: 0;
-  }
-
-  header .header-text h1 {
-    font-size: 40px;
-  }
-}
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
-  body {
-    padding-top: 0;
-  }
-
-  header .header-text h1 {
-    font-size: 40px;
-  }
-}
-
 
 /* Generic header */
 
@@ -112,7 +74,6 @@ header .header-img {
 /* Home */
 
 #home .objectives {
-  padding: 40px 0px;
   font-size: 16px;
   line-height: 30px;
 }
@@ -120,6 +81,10 @@ header .header-img {
 #home .objectives .title {
   margin-bottom: 20px;
   font-size: 40px;
+}
+
+#home .objectives .span4 {
+  margin: 40px 0px;
 }
 
 
@@ -133,4 +98,47 @@ header .header-img {
   padding: 40px 0px;
   font-size: 30px;
   line-height: 50px;
+}
+
+
+/*
+ * RESPONSIVE STUFF
+ */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+
+  header .header-text h1 {
+    font-size: 50px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    padding-top: 0;
+  }
+
+  header .header-text h1 {
+    font-size: 50px;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  body {
+    padding-top: 0;
+  }
+
+  header .header-text h1 {
+    font-size: 50px;
+  }
 }
