@@ -9,7 +9,7 @@ title: Premier goûter 3ailes
 
 L'inscription est obligatoire, si vous souhaitez participer merci de bien vouloir envoyer un mail à <a href="mailto:bureau@3ailes.org">bureau@3ailes.org</a> ou inscrivez-vous à <a href="http://www.facebook.com/events/499262093466402/">l'évènement Facebook</a> créé pour l'occasion.
 
-Lors de ce premier goûter nous présenterons l'association, ses aspirations, ses projets. Celà sera aussi l'occasion d'échanger et de recueillir les premières réactions des familles Betonnaises. Si vous avez des idées sur comment améliorer l'intégrations des enfants en situation de handicap sur la commune, n'hésitez pas à venir les partager avec nous.
+Lors de ce premier goûter nous présenterons l'association, ses aspirations, ses projets. Celà sera aussi l'occasion d'échanger et de recueillir les premières réactions des familles Betonnaises. Si vous avez des idées sur comment améliorer l'intégration des enfants en situation de handicap sur la commune, n'hésitez pas à venir les partager avec nous.
 
 Et bien sûr, celà sera également l'occasion pour les enfants et les parents de se régaler autour d'un bon goûter.
 
