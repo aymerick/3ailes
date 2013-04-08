@@ -156,6 +156,17 @@ header .header-img {
 }
 
 
+/* Statuts */
+
+#statuts .content h1 {
+  font-size: 30px;
+}
+
+#statuts .content h2 {
+  font-size: 20px;
+}
+
+
 /*
  * RESPONSIVE STUFF
  */
