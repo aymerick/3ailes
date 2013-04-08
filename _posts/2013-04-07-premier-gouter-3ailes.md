@@ -6,7 +6,9 @@ title: Premier goûter 3ailes
 ---
 
 ![Muffins][1] L'association 3ailes est heureuse d'organiser son premier goûter qui aura lieu le
+
 __samedi 20 avril 2012__, de 16h00 à 18h00,
+
 à la __salle polyvalente de Betton__.
 
 Nous souhaitons en faire un rendez-vous régulier pour permettre aux familles d'échanger dans une ambiance détendue.

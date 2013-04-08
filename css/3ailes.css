@@ -50,7 +50,7 @@ header .header-text {
 }
 
 header .header-text h1 {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 60px;
 }
 
@@ -75,6 +75,10 @@ header .header-img {
 
 #home header .header-text {
   padding: 35px 0px;
+}
+
+#home header .header-text h1 {
+  font-size: 60px;
 }
 
 #home header .header-text .subtitle {
@@ -111,6 +115,10 @@ header .header-img {
 
 #contact .contact-line {
   position: relative;
+}
+
+#contact .contact-line a {
+  font-size: 25px;
 }
 
 #contact .contact-link {
