@@ -11,6 +11,6 @@ L'inscription est obligatoire, si vous souhaitez participer merci de bien vouloi
 
 Lors de ce premier goûter nous présenterons l'association, ses aspirations, ses projets. Celà sera aussi l'occasion d'échanger et de recueillir les premières réactions des familles Betonnaises. Si vous avez des idées sur comment améliorer l'intégrations des enfants en situation de handicap sur la commune, n'hésitez pas à venir les partager avec nous.
 
-Et bien sûr, celà sera aussi l'occasion pour les enfants et les parents de se régaler autour d'un bon goûter.
+Et bien sûr, celà sera également l'occasion pour les enfants et les parents de se régaler autour d'un bon goûter.
 
 [1]: /img/muffins-200x150.jpg
