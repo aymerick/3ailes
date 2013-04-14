@@ -109,12 +109,13 @@ header .header-img {
 
 #contact .content {
   padding: 40px 0px;
-  font-size: 30px;
-  line-height: 50px;
+  font-size: 11px;
 }
 
 #contact .contact-line {
   position: relative;
+  font-size: 30px;
+  line-height: 50px;
 }
 
 #contact .contact-line a {
@@ -124,6 +125,11 @@ header .header-img {
 #contact .contact-link {
   position: absolute;
   left: 45px;
+}
+
+#contact .contact-logo {
+  font-size: 20px;
+  line-height: 25px;
 }
 
 
