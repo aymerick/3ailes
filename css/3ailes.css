@@ -41,7 +41,7 @@ footer .social {
 header {
   background-image: url("../img/satinweave.png");
   border-bottom: 1px solid #e5e5e5;
-  padding: 15px 15px;
+  padding: 15px 15px 0px 15px;
 }
 
 header .header-text .desc {
@@ -88,6 +88,11 @@ header .header-img {
 
 #home header .header-text .subtitle {
   margin-bottom: 40px;
+}
+
+#home header .adhesion {
+  text-align: center;
+  margin-top: 20px;
 }
 
 #home .objectives {
