@@ -8,7 +8,7 @@ title: Premier goûter 3ailes
 ![Muffins][1] L'association 3ailes est heureuse d'organiser son premier goûter :
 
 <div>
-  le <strong>samedi 20 avril 2012</strong>, de 16h00 à 18h00,
+  le <strong>samedi 20 avril 2013</strong>, de 16h00 à 18h00,
   <br />
   à la <strong>salle polyvalente de Betton</strong>.
 </div>
