@@ -8,11 +8,13 @@ Development
 
 Install jekyll: http://jekyllrb.com
 
-Currently based on a deprecated version of jekyll (0.12.1)
-
-$ jekyll --server --auto
+$ jekyll build
+$ jekyll serve --watch
+$ jekyll serve --watch --draft
 
 Browse: http://127.0.0.1:4000
+
+CSS Framework: Bootstrap 2.
 
 References
 ==========
