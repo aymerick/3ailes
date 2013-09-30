@@ -158,8 +158,10 @@ header .header-img {
 /* Images are centered */
 #actualites .post-excerpt img,
 #actualites-post .post-content img {
+/*
   display: block;
   margin: 20px auto;
+*/
 }
 
 /* The first image of the first paragragphe is right-floating */
