@@ -8,9 +8,11 @@ Development
 
 Install jekyll: http://jekyllrb.com
 
+```bash
 $ jekyll build
 $ jekyll serve --watch
 $ jekyll serve --watch --draft
+```
 
 Browse: http://127.0.0.1:4000
 
