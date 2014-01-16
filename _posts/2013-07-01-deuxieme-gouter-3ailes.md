@@ -22,4 +22,4 @@ N'hésitez pas à faire passer l'info si vous connaissez d'autres familles conç
 
 A samedi !
 
-[1]: /img/bulles-200x150.jpg
+[1]: /img/gouter/2-bulles-200x150.jpg

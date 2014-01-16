@@ -28,4 +28,4 @@ A bientôt !
 
 <a href="http://www.facebook.com/events/139492142914442/">Evènement Facebook</a>
 
-[1]: /img/muffins-200x150.jpg
+[1]: /img/gouter/muffins-200x150.jpg
