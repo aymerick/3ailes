@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if page.description %}
       <meta name="description" content="{{ page.description }}">
@@ -14,16 +15,17 @@
     <link rel="icon" type="image/png" href="favicon.png" />
 
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/vendor/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!--[if IE 7]>
       <link href="/vendor/font-awesome/css/font-awesome-ie7.min.css" rel="stylesheet">
     <![endif]-->
     <link href="/css/3ailes.css" rel="stylesheet" media="screen">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="/vendor/html5shiv.js"></script>
+      <script src="/vendor/respond-1.4.2.min.js"></script>
     <![endif]-->
 
     <meta property="fb:app_id" content="537913342926908" />
@@ -42,37 +44,39 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsable">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="/index.html">3ailes</a>
-          <div class="nav-collapse collapse navbar-responsive-collapse pull-right">
-            <ul class="nav">
-              <li class="{% if page.body-id == 'home' %}active{% endif %}">
-                <a href="/index.html">Accueil</a>
-              </li>
-              <li class="{% if page.body-id == 'actualites' or page.body-id == 'actualites-post' %}active{% endif %}">
-                <a href="/actualites.html">Actualités</a>
-              </li>
-              <li class="{% if page.body-id == 'equipe' %}active{% endif %}">
-                <a href="/equipe.html">Equipe</a>
-              </li>
-              <li class="{% if page.body-id == 'contact' %}active{% endif %}">
-                <a href="/contact.html">Contact</a>
-              </li>
-              <li class="{% if page.body-id == 'statuts' %}active{% endif %}">
-                <a href="/statuts.html">Statuts</a>
-              </li>
-            </ul>
-          </div>
+          <a class="navbar-brand" href="/index.html">3ailes</a>
+        </div>
+
+        <div class="collapse navbar-collapse pull-right" id="navbar-collapsable">
+          <ul class="nav navbar-nav">
+            <li class="{% if page.body-id == 'home' %}active{% endif %}">
+              <a href="/index.html">Accueil</a>
+            </li>
+            <li class="{% if page.body-id == 'actualites' or page.body-id == 'actualites-post' %}active{% endif %}">
+              <a href="/actualites.html">Actualités</a>
+            </li>
+            <li class="{% if page.body-id == 'equipe' %}active{% endif %}">
+              <a href="/equipe.html">Equipe</a>
+            </li>
+            <li class="{% if page.body-id == 'contact' %}active{% endif %}">
+              <a href="/contact.html">Contact</a>
+            </li>
+            <li class="{% if page.body-id == 'statuts' %}active{% endif %}">
+              <a href="/statuts.html">Statuts</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
 
     <div id="main-content">
       {{ content }}
@@ -86,8 +90,7 @@
       </div>
     </footer>
 
-    <script src="/vendor/jquery-1.9.1.min.js"></script>
-    <!-- <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> -->
+    <script src="/vendor/jquery-1.11.0.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
   </body>
 

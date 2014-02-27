@@ -9,12 +9,12 @@ og-type: website
 <header>
   <div class="container">
     <div class="row">
-      <div class="span6 header-text">
+      <div class="col-md-6 header-text">
         <h1>{{ page.title }}</h1>
         <p class='subtitle'>Signés par les fondateurs le 16 Janvier 2013, et validés par la préfecture le 26 Mars 2013.</p>
       </div>
-      <div class="span6 header-img">
-        <img src="./img/betton-eglise-570x170.jpg" alt="Betton"/>
+      <div class="col-md-6 header-img">
+        <img src="./img/betton-eglise-570x170.jpg" alt="Betton" class="img-responsive"/>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@ og-type: website
 
 <div class="container content">
   <div class="row">
-    <div class="span12">
+    <div class="col-md-12">
       {% capture statuts %}{% include statuts.md %}{% endcapture %}
       {{ statuts | markdownify }}
     </div>

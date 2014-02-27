@@ -211,54 +211,18 @@ header .header-img {
  * RESPONSIVE STUFF
  */
 
-/* Large desktop */
+/* Large devices */
 @media (min-width: 1200px) {
 
 }
 
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  body {
-    padding-top: 0;
-  }
-
-  header .header-text h1 {
-    font-size: 50px;
-  }
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-  body {
-    padding-top: 0;
-  }
-
-  header .header-text h1 {
-    font-size: 50px;
-  }
-
+/* Extra small devices, Small devices and Medium devices */
+@media (max-width: 991px) {
   #home .objectives {
     margin-top: 0px;
   }
-  #home .objectives .span4{
-    margin-top: 40px;
-  }
-}
 
-/* Landscape phones and down */
-@media (max-width: 480px) {
-  body {
-    padding-top: 0;
-  }
-
-  header .header-text h1 {
-    font-size: 50px;
-  }
-
-  #home .objectives {
-    margin-top: 0px;
-  }
-  #home .objectives .span4{
+  #home .objectives .col-md-4{
     margin-top: 40px;
   }
 }
