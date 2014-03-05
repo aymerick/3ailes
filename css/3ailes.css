@@ -2,11 +2,34 @@
 
 body {
   position: relative;
-  padding-top: 40px;
+  margin-top: 80px;
 }
 
 body > .navbar {
   font-size: 14px;
+  background-color: #fff;
+  min-height: 80px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #e7e7e7;
+  box-shadow: 0 2px 5px rgba(0,0,0,.08);
+}
+
+body > .navbar .nav > li > a {
+  color: #777777;
+}
+
+body > .navbar .nav > li.active {
+  font-weight: bold;
+}
+
+body > .navbar .nav > li.active a,
+body > .navbar .nav > li.active a:hover,
+body > .navbar .nav > li.active a:focus {
+  background: none;
+}
+
+body > .navbar .navbar-collapse {
+  margin-top: 15px;
 }
 
 #main-content {
@@ -78,21 +101,51 @@ header .header-img {
 
 /* Home */
 
-#home header .header-text {
-  padding: 10px 0px;
-}
-
-#home header .header-text h1 {
-  font-size: 60px;
-}
-
-#home header .header-text .subtitle {
-  margin-bottom: 40px;
-}
-
-#home header .adhesion {
+#home .adhesion {
   text-align: center;
   margin-top: 20px;
+}
+
+#home section.hero {
+  text-align: center;
+  padding: 120px 0;
+}
+
+#home section.hero.empty {
+  text-align: center;
+  padding: 150px 0;
+}
+
+#home section.hero.asso {
+  background: url("../img/home/gouter_salle_2_b_filter.png");
+  background-size: cover;
+}
+
+#home section.hero.echanger {
+  background: url("../img/home/gouter_table_2_b.png");
+  background-size: cover;
+}
+
+#home section.hero.informer {
+  background: url("../img/home/pate_a_sel_mains_b.png");
+  background-size: cover;
+}
+
+#home section.hero.agir {
+  background: url("../img/home/piscine_b.png");
+  background-size: cover;
+}
+
+#home section.hero.divertir {
+  background: url("../img/home/cine_b.png");
+  background-size: cover;
+}
+
+#home section.hero h1 {
+  color: white;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 35px;
 }
 
 #home .objectives {
@@ -103,11 +156,27 @@ header .header-img {
 #home .objectives .title {
   margin-bottom: 20px;
   font-size: 40px;
+  text-align: center;
 }
 
 #home .objectives {
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+/* Extra small devices and Small devices */
+@media (max-width: 768px) {
+  #home section.hero h1 {
+    font-size: 25px;
+  }
+
+  #home section.hero {
+    padding: 30px 0;
+  }
+
+  #home section.hero.empty {
+    padding: 80px 0;
+  }
 }
 
 
@@ -205,24 +274,4 @@ header .header-img {
 #equipe .membre .fondateur {
   font-size: 15px;
   font-style: italic;
-}
-
-/*
- * RESPONSIVE STUFF
- */
-
-/* Large devices */
-@media (min-width: 1200px) {
-
-}
-
-/* Extra small devices, Small devices and Medium devices */
-@media (max-width: 991px) {
-  #home .objectives {
-    margin-top: 0px;
-  }
-
-  #home .objectives .col-md-4{
-    margin-top: 40px;
-  }
 }

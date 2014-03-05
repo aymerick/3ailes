@@ -44,7 +44,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsable">
@@ -53,14 +53,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/index.html">3ailes</a>
+          <a class="navbar-brand" href="/index.html"><img class="logo" src="/img/logo-petit.png" alt="3ailes" /></a>
         </div>
 
         <div class="collapse navbar-collapse pull-right" id="navbar-collapsable">
           <ul class="nav navbar-nav">
-            <li class="{% if page.body-id == 'home' %}active{% endif %}">
-              <a href="/index.html">Accueil</a>
-            </li>
             <li class="{% if page.body-id == 'actualites' or page.body-id == 'actualites-post' %}active{% endif %}">
               <a href="/actualites.html">Actualités</a>
             </li>
