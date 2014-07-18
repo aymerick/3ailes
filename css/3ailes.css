@@ -122,22 +122,22 @@ header .header-img {
 }
 
 #home section.hero.echanger {
-  background: url("../img/home/gouter_table_2_b.jpg");
+  background: url("../img/home/gouter_table_2_b.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
 #home section.hero.informer {
-  background: url("../img/home/pate_a_sel_mains_b.jpg");
+  background: url("../img/home/pate_a_sel_mains_b.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
 #home section.hero.agir {
-  background: url("../img/home/piscine_b.jpg");
+  background: url("../img/home/piscine_b.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
 #home section.hero.divertir {
-  background: url("../img/home/cine_b.jpg");
+  background: url("../img/home/cine_b.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
