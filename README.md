@@ -6,13 +6,16 @@ Site web de l'association 3ailes
 Development
 ===========
 
-Install jekyll: http://jekyllrb.com
+Setup:
 
-```bash
-$ jekyll build
-$ jekyll serve --watch
-$ jekyll serve --watch --draft
-```
+    $ gem install bundle
+    $ bundle install
+
+Dev:
+
+    $ jekyll build
+    $ jekyll serve --watch
+    $ jekyll serve --watch --draft
 
 Browse: http://127.0.0.1:4000
 
