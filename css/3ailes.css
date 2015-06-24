@@ -251,7 +251,7 @@ header .header-img {
 */
 }
 
-/* The first image of the first paragragphe is right-floating */
+/* The first image of the first paragragphe is left-floating */
 #actualites .post-excerpt p:nth-of-type(1) img:nth-of-type(1),
 #actualites-post .post-content p:nth-of-type(1) img:nth-of-type(1) {
   display: inline-block;
